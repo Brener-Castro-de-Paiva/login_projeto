@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+verde #49a09d
+lilas #5f2c82
+*/
+/*============================================= */
+/* ESTILOS PARA TABLET */
+/* ============================================= */
+@media screen and (min-width: 760px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section#login{
+        width: 80vw;
+        height: 450px;
+    }
+    
+    /* Imagem ao lado ESQUERDO (tablet) */
+    section#login > div#imagem{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+    
+    /* Formulário ao lado DIREITO (tablet) */
+    section#login > div#formulario{
+        float: right;
+        width: 65%;
+        padding: 15px;
+    }
+    
+    section#login > div#formulario h1{
+        font-size: 1.4em;
+    }
+    
+    section#login > div#formulario p{
+        font-size: 1em;
+    }
+}
+
+/* ============================================= */
+/* ESTILOS PARA DESKTOP */
+/* ============================================= */
+@media screen and (min-width: 992px){
+    section#login{
+        width: 950px;
+        height: 500px;
+    }
+    
+    /* Imagem ao lado ESQUERDO (desktop) */
+    section#login > div#imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    
+    /* Formulário ao lado DIREITO (desktop) */
+    section#login > div#formulario{
+        float: right;
+        width: 60%;
+        padding: 20px;
+    }
+    
+    section#login > div#formulario h1{
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+    
+    section#login > div#formulario p{
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+}
+
+/* ============================================= */
+/* ESTILOS PARA TELAS GRANDES (TVs, monitores ultra-wide) */
+/* ============================================= */
+@media screen and (min-width: 1200px){
+    section#login{
+        width: 1100px;
+        height: 550px;
+    }
+       body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section#login > div#imagem{
+        width: 45%;
+    }
+    
+    section#login > div#formulario{
+        width: 55%;
+        padding: 25px;
+    }
+    
+    section#login > div#formulario h1{
+        font-size: 2em;
+    }
+    
+    section#login > div#formulario p{
+        font-size: 1.2em;
+    }
+}
