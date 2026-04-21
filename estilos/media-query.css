@@ -51,14 +51,14 @@ lilas #5f2c82
     
     /* Imagem ao lado ESQUERDO (desktop) */
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
     
     /* Formulário ao lado DIREITO (desktop) */
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 60%;
         padding: 20px;
     }
@@ -71,6 +71,12 @@ lilas #5f2c82
     section#login > div#formulario p{
         font-size: 1.1em;
         margin-bottom: 20px;
+    }
+    div#fomulario > p{
+    font-size: 1.2em;
+    }
+    div#fomulario h1{
+        font-size: 2em;
     }
 }
 
